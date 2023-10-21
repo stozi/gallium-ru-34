@@ -1,0 +1,57 @@
+ // sudo cp gallium-v2 /usr/share/X11/xkb/symbols/
+
+default partial
+xkb_symbols "basic" {
+
+    include "us(basic)"
+
+    name[Group1] = "Gallium-v2";
+
+    key <TLDE> {[ at,        dollar    ]};
+    key <AE01> {[ 1,         ampersand ]};
+    key <AE07> {[ 7,         exclam    ]};
+    key <AE09> {[ 9,         less      ]};
+    key <AE10> {[ 0,         greater   ]};
+    key <AE11> {[ endash,    emdash    ]};
+    key <AE12> {[ bracketright, braceright ]};
+
+    key <AD01> {[ b,         B         ]};
+    key <AD02> {[ l,         L         ]};
+    key <AD03> {[ d,         D         ]};
+    key <AD04> {[ c,         C         ]};
+    key <AD05> {[ v,         V         ]};
+    key <AD06> {[ j,         J         ]};
+    key <AD07> {[ f,         F         ]};
+    key <AD08> {[ o,         O         ]};
+    key <AD09> {[ u,         U         ]};
+    key <AD10> {[ comma,     slash     ]};
+    key <AD11> {[ semicolon, colon     ]};
+    key <AD12> {[ equal,     plus      ]};
+
+    key <AC01> {[ n,         N         ]};
+    key <AC02> {[ r,         R         ]};
+    key <AC03> {[ t,         T         ]};
+    key <AC04> {[ s,         S         ]};
+    key <AC05> {[ g,         G         ]};
+    key <AC06> {[ y,         Y         ]};
+    key <AC07> {[ h,         H         ]};
+    key <AC08> {[ a,         A         ]};
+    key <AC09> {[ e,         E         ]};
+    key <AC10> {[ i,         I         ]};
+    key <AC11> {[ parenleft, parenright ]};
+
+    key <AB01> {[ x,         X         ]};
+    key <AB02> {[ q,         Q         ]};
+    key <AB03> {[ m,         M         ]};
+    key <AB04> {[ w,         W         ]};
+    key <AB05> {[ z,         Z         ]};
+    key <AB06> {[ k,         K         ]};
+    key <AB07> {[ p,         P         ]};
+    key <AB08> {[ apostrophe, quotedbl ]};
+    key <AB09> {[ minus,    underscore ]};
+    key <AB10> {[ period,    question  ]};
+
+    key <KP1> {[ grave,       asciitilde ]};
+    key <KP2> {[ bracketleft, braceleft  ]};
+
+};
