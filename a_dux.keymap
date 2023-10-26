@@ -71,18 +71,18 @@ macros {
 
 		nmnv {
 			bindings = <
-			&kp N9         &kp N0       &kp N1         &kp N2          &kp N3         &kp N4    &kp N5   &kp N6    &kp N7    &kp N8
-			&mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp C_VOL_UP   &kp TAB   &kp LEFT &kp DOWN  &kp UP    &kp RIGHT      
-			&kp C_VOL_DN   &mkp RCLK    &mkp MCLK      &mkp LCLK       &kp SLASH      &kp P     &kp HOME &kp PG_DN &kp PG_UP &kp END   
+			&kp K_UNDO     &kp K_CUT    &kp K_COPY     &kp K_PASTE     &kp SLASH      &kp P   &ac_THE_LC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
+			&mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LC(BSPC)   &kp TAB &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT      
+			&kp K_REDO     &mkp RCLK    &mkp MCLK      &mkp LCLK       &kp LC(DEL)    &kp ESC &kp HOME   &kp PG_DN    &kp PG_UP    &kp END   
 				                                             &tog 2 &lt 1 ENTER   &mt LSHIFT SPACE &mt LALT BSPC
 			>;
 		};
 		nmnvcf {
 			bindings = <
-			&kp F9     &kp F10        &kp F1           &kp F2        &kp F3       &kp F4     &kp F5       &kp F6        &kp F7        &kp F8
-			&sk LCTRL  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp LC(ENTER) &kp C_MUTE   &kp ESC    &kp LC(LEFT) &kp LC(DOWN)  &kp LC(UP)    &kp LC(RIGHT) 
-			&kp KP_N2  &kp EQUAL      &kp KP_N1        &kp BSLH      &kp F11      &kp F12    &kp LC(HOME) &kp LC(PG_DN) &kp LC(PG_UP) &kp LC(END)
-				                                          &trans    &trans    &trans  &mt LALT DEL
+			&kp F9 &kp F10        &kp F1           &kp F2        &kp F3       &kp F4  &kp F5       &kp F6        &kp F7        &kp F8
+			NULL   &mwh SCROLL_UP &mwh SCROLL_DOWN &kp LC(ENTER) NULL         NULL    &kp LC(LEFT) &kp LC(DOWN)  &kp LC(UP)    &kp LC(RIGHT) 
+			NULL   NULL           NULL             &sk LCTRL     &kp F11      &kp F12 &kp LC(HOME) &kp LC(PG_DN) &kp LC(PG_UP) &kp LC(END)
+				                                          &trans   &trans    &trans  &mt LALT DEL
 			>;
 		};
 		alfa {
@@ -95,9 +95,9 @@ macros {
 		};
 		alfacf {
 			bindings = <
-			&kp LC(Q) &kp LC(W) &kp LC(RBKT) &kp LC(R) &kp LC(T)      &kp PAUSE_BREAK &kp LC(U) &kp LC(I)  &kp LC(O)  &kp GRAVE
-			&kp LC(A) &kp LC(S) &kp LC(D)    &kp LC(F) &kp RCTRL      &kp LC(H)       &kp LBKT  &kp LC(K)  &kp SQT    &kp LC(SEMI)
-			&kp LC(Z) &kp LC(X) &kp LC(DOT)  &kp LC(V) &kp LC(B)      &kp RBKT        &kp LC(M) &ac_THE_LC &kp MINUS  &kp LS(N7)
+			NULL   NULL   NULL   &kp RCTRL &kp KP_N2        &kp KP_N1 &kp BSLH   &kp LBKT    &kp RBKT  &kp GRAVE
+			&kp N9 &kp N0 &kp N1 &kp N2    &kp N3           &kp N4    &kp N5     &kp N6      &kp N7    &kp N8
+			NULL   NULL   NULL   &sk LCTRL &kp PAUSE_BREAK  &kp EQUAL &ac_THE_LC &ac_BRAK_LC &kp MINUS &ac_SEN_LC
 				                            &trans   &trans    &trans  &kp DEL
 			>;
 		};
