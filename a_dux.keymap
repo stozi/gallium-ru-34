@@ -30,6 +30,18 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_l3 {
+            timeout-ms = <50>;
+            key-positions = <31 32>;
+	    layers = <2 3>
+            bindings = <&tog 3>;
+        };
+    };
+};
+
+/ {
 
 macros {
         ac_THE_LC: ac_THE_LC {
