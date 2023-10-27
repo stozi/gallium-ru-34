@@ -50,11 +50,11 @@ layer0 layer3/enter  shift/space alt/bkspc
 Fn layer for alpha layer. ^ is compose, L switch lang.
 
 ```
-nul nul nul L   <>   :;  \Э  [Х  ]Ъ  ~Ё
+nul nul nul L   =    :;  \Э  [Х  ]Ъ  ~Ё
 
 9   0   1   2   3    4   5   6   7   8
 
-nul nul nul skC ^    =   the ()  –—  sen
+nul nul nul skC ^    <>  the ()  –—  sen
 
 null layer2/enter  shift/space alt/del   
 ```
