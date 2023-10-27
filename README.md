@@ -12,23 +12,24 @@ Illustration:
 Base layer, mouse keys on the left. Switching bang and ampersand makes the former more accessible on the last layer. 
 
 ```
-9<  0>  1&  2   3     4   5   6   7!  8
+nul nul cut cpy pst  .   the v-  v+  mut
 
-ml  mu  md  mr  v+    tab al  ad  au  ar
+ml  mu  md  mr  Cbk  tab al  ad  au  ar
 
-v-  rmb mmb lmb .     ,   hm  pd  pu  ed
+nul rmb mmb lmb Cdl  esc hm  pd  pu  en
 
 layer2 layer1/enter  shift/space alt/bkspc   
 ```               
 
-Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, which is only there for very rare ocassions, ctE is ctrl-enter)
+Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, ctE is ctrl-enter)
 
 ```
-f9  f10 f1  f2  f3    f4  f5  f6  f7  f8
 
-skC whu whd ctE mut   esc cal cad cau car
+F9  F10 F1  F2  F3   F4  F5  F6  F7  F8
 
-[{  ]}  `~  \|  f11   f12 chm cpd cpu ced
+nul wu  wd  CtE nul  nul cal cad cau car
+
+nul nul nul skC F11  F12 chm cpd cpu ced
 
 null layer0/enter  shift/space alt/del   
 ```
@@ -46,17 +47,14 @@ x   q   m   w   z     k   p   '"  -_  .?
 layer0 layer3/enter  shift/space alt/bkspc   
 ```
 
-Hybrid ctrl/fn layer for alpha layer. The positions of puncts/Ru alphas (and some handy puncts for Ru) are influenced by comfort and which letters are seldom used with ctrl. ^ is compose, L switch lang.
+Fn layer for alpha layer. ^ is compose, L switch lang.
 
 ```
-ctb ctl ct+ ctc ctv   ^   ctf cto ctu @
-                                      Ё
+nul nul nul L   <>   :;  \Э  [Х  ]Ъ  ~Ё
 
-ctn ctr ctt cts L     cty ;:  cta ()  cti
-                          X       Э
+9   0   1   2   3    4   5   6   7   8
 
-ctx ctq ct- ctw ctz   =+  ctp the –—  !
-                      Ъ           -_  ?
+nul nul nul skC ^    =   the ()  –—  sen
 
 null layer2/enter  shift/space alt/del   
 ```
