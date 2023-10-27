@@ -8,10 +8,6 @@ xkb_symbols "basic" {
     name[Group1] = "Gallium-v2";
 
     key <TLDE> {[ asciitilde, grave    ]};
-    key <AE01> {[ 1,         ampersand ]};
-    key <AE07> {[ 7,         exclam    ]};
-    key <AE09> {[ 9,         less      ]};
-    key <AE10> {[ 0,         greater   ]};
     key <AE11> {[ endash,    emdash    ]};
 
     key <AD01> {[ b,         B         ]};
