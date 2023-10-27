@@ -47,7 +47,7 @@ x   q   m   w   z     k   p   '"  -_  .?
 layer0 layer3/enter  shift/space alt/bkspc   
 ```
 
-Fn layer for alpha layer. ^ is compose, L switch lang.
+Fn layer for alpha layer. ^ is compose, L switch lang. Accessed by holding down the left-left thumb key or tapping both left-hand thumb keys at once.
 
 ```
 nul nul nul L   =    :;  \Э  [Х  ]Ъ  ~Ё
