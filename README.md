@@ -29,7 +29,7 @@ F9  F10 F1  F2  F3   F4  F5  F6  F7  F8
 
 nul wu  wd  CtE nul  nul cal cad cau car
 
-nul nul nul skC F11  F12 chm cpd cpu ced
+nul c-  c=  skC F11  F12 chm cpd cpu ced
 
 null layer0/enter  shift/space alt/del   
 ```
@@ -50,11 +50,11 @@ layer0 layer3/enter  shift/space alt/bkspc
 Fn layer for alpha layer. ^ is compose, L switch lang. Accessed by holding down the left-left thumb key or tapping both left-hand thumb keys at once.
 
 ```
-nul nul nul L   =    :;  \Э  [Х  ]Ъ  ~Ё
+nul nul <>  L   =    :;  \Э  [Х  ]Ъ  ~Ё
 
 9   0   1   2   3    4   5   6   7   8
 
-nul nul nul skC ^    <>  the ()  –—  sen
+nul nul nul skC ^   .com the ()  –—  sen
 
 null layer2/enter  shift/space alt/del   
 ```
