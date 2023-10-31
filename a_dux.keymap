@@ -76,6 +76,16 @@ macros {
         = <&macro_tap &kp SLASH &kp SPACE &sk LSHIFT>
         ;
     };
+	ac_COM_LC: ac_COM_LC {
+        label = "ZM_ac_COM_LC";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <5>;
+        tap-ms = <5>;
+        bindings
+        = <&macro_tap &kp SLASH &kp R &kp I &kp C>
+        ;
+    };
 };
 
 	keymap {
@@ -83,7 +93,7 @@ macros {
 
 		nmnv {
 			bindings = <
-			&kp C_AC_REDO  &kp C_AC_UNDO &kp K_CUT      &kp K_COPY      &kp K_PASTE    &kp SLASH &ac_THE_LC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
+			&kp LC(H)      &kp LC(B)     &kp K_CUT      &kp K_COPY      &kp K_PASTE    &kp SLASH &ac_THE_LC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
 			&mmv MOVE_LEFT &mmv MOVE_UP  &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LC(BSPC)   &kp TAB   &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT      
 			&none          &mkp RCLK     &mkp MCLK      &mkp LCLK       &kp LC(DEL)    &kp ESC   &kp HOME   &kp PG_DN    &kp PG_UP    &kp END   
 				                                             &tog 2 &lt 1 ENTER   &mt LSHIFT SPACE &mt LALT BSPC
@@ -93,7 +103,7 @@ macros {
 			bindings = <
 			&kp F9 &kp F10        &kp F1           &kp F2        &kp F3       &kp F4  &kp F5       &kp F6        &kp F7        &kp F8
 			&none  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp LC(ENTER) &none        &none   &kp LC(LEFT) &kp LC(DOWN)  &kp LC(UP)    &kp LC(RIGHT) 
-			&none  &none          &none            &sk LCTRL     &kp F11      &kp F12 &kp LC(HOME) &kp LC(PG_DN) &kp LC(PG_UP) &kp LC(END)
+			&none  &kp LC(DOT)    &kp LC(EQUAL)    &sk LCTRL     &kp F11      &kp F12 &kp LC(HOME) &kp LC(PG_DN) &kp LC(PG_UP) &kp LC(END)
 				                                          &trans   &trans    &trans  &mt LALT DEL
 			>;
 		};
@@ -107,9 +117,9 @@ macros {
 		};
 		alfacf {
 			bindings = <
-			&none  &none  &none  &kp RCTRL &kp EQUAL        &kp KP_N1 &kp BSLH   &kp LBKT    &kp RBKT  &kp GRAVE
-			&kp N9 &kp N0 &kp N1 &kp N2    &kp N3           &kp N4    &kp N5     &kp N6      &kp N7    &kp N8
-			&none  &none  &none  &sk LCTRL &kp PAUSE_BREAK  &kp KP_N2 &ac_THE_LC &ac_BRAK_LC &kp MINUS &ac_SEN_LC
+			&none  &none  &kp KP_N2 &kp RCTRL &kp EQUAL        &kp KP_N1 &kp BSLH   &kp LBKT    &kp RBKT  &kp GRAVE
+			&kp N9 &kp N0 &kp N1    &kp N2    &kp N3           &kp N4    &kp N5     &kp N6      &kp N7    &kp N8
+			&none  &none  &none     &sk LCTRL &kp PAUSE_BREAK  &ac_COM_LC &ac_THE_LC &ac_BRAK_LC &kp MINUS &ac_SEN_LC
 				                            &trans   &trans    &trans  &kp DEL
 			>;
 		};
