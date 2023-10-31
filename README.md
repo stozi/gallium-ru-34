@@ -12,7 +12,7 @@ Illustration:
 Base layer, mouse keys on the left. Switching bang and ampersand makes the former more accessible on the last layer. 
 
 ```
-nul nul cut cpy pst  .   the v-  v+  mut
+rdo udo cut cpy pst  .   the v-  v+  mut
 
 ml  mu  md  mr  Cbk  tab al  ad  au  ar
 
