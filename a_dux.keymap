@@ -117,7 +117,7 @@ macros {
 		};
 		alfacf {
 			bindings = <
-			&none  &none  &kp KP_N2 &kp RCTRL &kp EQUAL        &kp KP_N1 &kp BSLH   &kp LBKT    &kp RBKT  &kp GRAVE
+			&none  &none  &kp KP_N1 &kp RCTRL &kp EQUAL        &kp SQT &kp BSLH   &kp LBKT    &kp RBKT  &kp GRAVE
 			&kp N9 &kp N0 &kp N1    &kp N2    &kp N3           &kp N4    &kp N5     &kp N6      &kp N7    &kp N8
 			&none  &none  &none     &sk LCTRL &kp PAUSE_BREAK  &ac_COM_LC &ac_THE_LC &ac_BRAK_LC &kp MINUS &ac_SEN_LC
 				                            &trans   &trans    &trans  &kp DEL
