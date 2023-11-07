@@ -7,7 +7,7 @@ xkb_symbols "basic" {
 
     name[Group1] = "Gallium-v2";
 
-    key <PRSC> {[ less,      greater   ]};
+    key <CAPS> {[ less,      greater   ]};
     key <TLDE> {[ asciitilde, grave    ]};
     key <AE11> {[ endash,    emdash    ]};
 
