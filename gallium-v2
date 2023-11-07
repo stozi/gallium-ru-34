@@ -45,6 +45,4 @@ xkb_symbols "basic" {
     key <AB09> {[ minus,    underscore ]};
     key <AB10> {[ period,    question  ]};
 
-    key <KP1> {[ less,       greater   ]};
-
 };
