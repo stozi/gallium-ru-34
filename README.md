@@ -12,11 +12,11 @@ Illustration:
 Base layer, mouse keys on the left. Switching bang and ampersand makes the former more accessible on the last layer. 
 
 ```
-rdo udo cut cpy pst  .   the v-  v+  mut
+udo sal cut cpy pst  .   the v-  v+  mut
 
 ml  mu  md  mr  Cbk  tab al  ad  au  ar
 
-nul rmb mmb lmb Cdl  esc hm  pd  pu  en
+rdo rmb mmb lmb Cdl  esc hm  pd  pu  en
 
 layer2 layer1/enter  shift/space alt/bkspc   
 ```               
@@ -50,11 +50,11 @@ layer0 layer3/enter  shift/space alt/bkspc
 Fn layer for alpha layer. ^ is compose, L switch lang. Accessed by holding down the left-left thumb key or tapping both left-hand thumb keys at once.
 
 ```
-<>  =   :;  L   nul  nul \Э  [Х  ]Ъ  ~Ё
+<>  =   :;  L   ^    nul the nul nul nul
 
 9   0   1   2   3    4   5   6   7   8
 
-nul nul nul skC ^   .com the ()  –—  sen
+[Х  ]Ъ  \Э  skC ~Ё  nul .com ()  –—  sen
 
 null layer2/enter  shift/space alt/del   
 ```
