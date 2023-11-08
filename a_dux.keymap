@@ -30,17 +30,6 @@
 };
 
 / {
-    custom {
-    less_or_more: less_and_greater {
-       compatible = "zmk,behavior-mod-morph";
-       label = "LESS_AND_GREATER";
-       bindings = <&kp LESS_THAN>, <&kp GREATER_THAN>;
-       mods = <(MOD_LSFT|MOD_RSFT)>;
-       };
-    };
-};
-
-/ {
     combos {
         compatible = "zmk,combos";
         combo_l3 {
@@ -128,9 +117,9 @@ macros {
 		};
 		alfacf {
 			bindings = <
-			&less_or_more &kp EQUAL &kp SQT &kp RCTRL &none            &none      &kp BSLH   &kp LBKT    &kp RBKT  &kp GRAVE
-			&kp N9        &kp N0    &kp N1  &kp N2    &kp N3           &kp N4     &kp N5     &kp N6      &kp N7    &kp N8
-			&none         &none     &none   &sk LCTRL &kp PAUSE_BREAK  &ac_COM_LC &ac_THE_LC &ac_BRAK_LC &kp MINUS &ac_SEN_LC
+			&kp CAPS &kp EQUAL &kp SQT &kp RCTRL &none            &none      &kp BSLH   &kp LBKT    &kp RBKT  &kp GRAVE
+			&kp N9   &kp N0    &kp N1  &kp N2    &kp N3           &kp N4     &kp N5     &kp N6      &kp N7    &kp N8
+			&none    &none     &none   &sk LCTRL &kp PAUSE_BREAK  &ac_COM_LC &ac_THE_LC &ac_BRAK_LC &kp MINUS &ac_SEN_LC
 				                            &trans   &trans    &trans  &kp DEL
 			>;
 		};
