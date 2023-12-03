@@ -9,7 +9,7 @@ Prefixes 'ct' or 'c' mean ctrl+ below.
 
 Illustration:
 
-Base layer, mouse keys on the left. Switching bang and ampersand makes the former more accessible on the last layer. 
+Base layer, mouse keys on the left.
 
 ```
 udo sal cut cpy pst  .   the v-  v+  mut
