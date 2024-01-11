@@ -93,18 +93,18 @@ macros {
 
 		nmnv {
 			bindings = <
-			&kp LC(H)      &kp LC(B)     &kp K_CUT      &kp K_COPY      &kp K_PASTE    &kp SLASH &ac_THE_LC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
+	                &kp LC(B)      &kp LC(K)     &kp K_CUT      &kp K_COPY      &kp K_PASTE    &kp SLASH &ac_THE_LC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
 			&mmv MOVE_LEFT &mmv MOVE_UP  &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LC(BSPC)   &kp TAB   &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT      
-			&none          &mkp RCLK     &mkp MCLK      &mkp LCLK       &kp LC(DEL)    &kp ESC   &kp HOME   &kp PG_DN    &kp PG_UP    &kp END   
+			&kp LC(H)      &mkp RCLK     &mkp MCLK      &mkp LCLK       &kp LC(DEL)    &kp ESC   &kp HOME   &kp PG_DN    &kp PG_UP    &kp END   
 				                                             &tog 2 &lt 1 ENTER   &mt LSHIFT SPACE &mt LALT BSPC
 			>;
 		};
 		nmnvcf {
 			bindings = <
-			&kp F9 &kp F10        &kp F1           &kp F2        &kp F3       &kp F4  &kp F5       &kp F6        &kp F7        &kp F8
-			&none  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp LC(ENTER) &none        &none   &kp LC(LEFT) &kp LC(DOWN)  &kp LC(UP)    &kp LC(RIGHT) 
-			&none  &kp LC(DOT)    &kp LC(EQUAL)    &sk LCTRL     &kp F11      &kp F12 &kp LC(HOME) &kp LC(PG_DN) &kp LC(PG_UP) &kp LC(END)
-				                                          &trans   &trans    &trans  &mt LALT DEL
+			&kp F9        &kp F10        &kp F1           &kp F2        &kp F3              &kp F4  &kp F5       &kp F6        &kp F7        &kp F8
+			&kp C_BRI_UP  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp LC(ENTER) &kp LS(LC(BSPC))    &kp F11   &kp LC(LEFT) &kp LC(DOWN)  &kp LC(UP)    &kp LC(RIGHT) 
+			&kp C_BRI_DN  &kp LC(DOT)    &kp LC(EQUAL)    &sk LCTRL     &kp LS(LC(DEL))     &kp F12 &kp LC(HOME) &kp LC(PG_DN) &kp LC(PG_UP) &kp LC(END)
+				                                          &trans   &trans        &trans  &mt LALT DEL
 			>;
 		};
 		alfa {
@@ -117,9 +117,9 @@ macros {
 		};
 		alfacf {
 			bindings = <
-			&kp CAPS &kp EQUAL &kp SQT &kp RCTRL &none            &none      &kp BSLH   &kp LBKT    &kp RBKT  &kp GRAVE
-			&kp N9   &kp N0    &kp N1  &kp N2    &kp N3           &kp N4     &kp N5     &kp N6      &kp N7    &kp N8
-			&none    &none     &none   &sk LCTRL &kp PAUSE_BREAK  &ac_COM_LC &ac_THE_LC &ac_BRAK_LC &kp MINUS &ac_SEN_LC
+			&kp CAPS &kp BSLH &kp EQUAL &kp RCTRL &kp PAUSE_BREAK  &kp GRAVE &ac_THE_LC &kp SQT     &kp LBKT  &kp RBKT 
+			&kp N9   &kp N0   &kp N1    &kp N2    &kp N3           &kp N4    &kp N5     &kp N6      &kp N7    &kp N8
+			&none    &none    &none     &sk LCTRL &none            &none     &ac_COM_LC &ac_BRAK_LC &kp MINUS &ac_SEN_LC
 				                            &trans   &trans    &trans  &kp DEL
 			>;
 		};
