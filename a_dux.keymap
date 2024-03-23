@@ -16,7 +16,7 @@
         time-to-max-speed-ms = <400>;
         acceleration-exponent=<1>;
 };
-&mwh {    
+&msc {    
         time-to-max-speed-ms = <1000>;
         acceleration-exponent=<0>;
 }; 
@@ -101,9 +101,9 @@ macros {
 		};
 		nmnvcf {
 			bindings = <
-			&kp F9        &kp F10        &kp F1           &kp F2        &kp F3           &kp F4  &kp F5       &kp F6           &kp F7          &kp F8
-			&kp LC(EQUAL) &mwh SCROLL_UP &mwh SCROLL_DOWN &kp LC(ENTER) &kp LC(PG_UP)    &kp F11 &kp LC(LEFT) &kp LC(DOWN)     &kp LC(UP)      &kp LC(RIGHT) 
-			&kp LC(DOT)   &kp LC(H)      &kp LC(B)        &sk LCTRL     &kp LC(PG_DN)    &kp F12 &kp LC(HOME) &kp LS(LC(BSPC)) &kp LS(LC(DEL)) &kp LC(END)
+			&kp F9        &kp F10       &kp F1        &kp F2        &kp F3           &kp F4  &kp F5       &kp F6           &kp F7          &kp F8
+			&kp LC(EQUAL) &msc SCRL_UP &msc SCRL_DOWN &kp LC(ENTER) &kp LC(PG_UP)    &kp F11 &kp LC(LEFT) &kp LC(DOWN)     &kp LC(UP)      &kp LC(RIGHT) 
+			&kp LC(DOT)   &kp LC(H)    &kp LC(B)      &sk LCTRL     &kp LC(PG_DN)    &kp F12 &kp LC(HOME) &kp LS(LC(BSPC)) &kp LS(LC(DEL)) &kp LC(END)
 				                                          &trans   &trans        &trans  &mt LALT DEL
 			>;
 		};
