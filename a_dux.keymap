@@ -93,17 +93,17 @@ macros {
 
 		nmnv {
 			bindings = <
-	                &kp LC(B)      &kp LC(K)     &kp K_CUT      &kp K_COPY      &kp K_PASTE    &kp SLASH &ac_THE_LC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
-			&mmv MOVE_LEFT &mmv MOVE_UP  &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LC(BSPC)   &kp TAB   &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT      
-			&kp LC(H)      &mkp RCLK     &mkp MCLK      &mkp LCLK       &kp LC(DEL)    &kp ESC   &kp HOME   &kp PG_DN    &kp PG_UP    &kp END   
+	                &kp C_BRI_UP   &kp LC(K)     &kp K_CUT      &kp K_COPY      &kp K_PASTE   &kp SLASH &ac_THE_LC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
+			&mmv MOVE_LEFT &mmv MOVE_UP  &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp PG_UP     &kp TAB   &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT      
+			&kp C_BRI_DN   &mkp RCLK     &mkp MCLK      &mkp LCLK       &kp PG_DN     &kp ESC   &kp HOME   &kp LC(BSPC) &kp LC(DEL)  &kp END   
 				                                             &tog 2 &lt 1 ENTER   &mt LSHIFT SPACE &mt LALT BSPC
 			>;
 		};
 		nmnvcf {
 			bindings = <
-			&kp F9        &kp F10        &kp F1           &kp F2        &kp F3              &kp F4  &kp F5       &kp F6        &kp F7        &kp F8
-			&kp C_BRI_UP  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp LC(ENTER) &kp LS(LC(BSPC))    &kp F11   &kp LC(LEFT) &kp LC(DOWN)  &kp LC(UP)    &kp LC(RIGHT) 
-			&kp C_BRI_DN  &kp LC(DOT)    &kp LC(EQUAL)    &sk LCTRL     &kp LS(LC(DEL))     &kp F12 &kp LC(HOME) &kp LC(PG_DN) &kp LC(PG_UP) &kp LC(END)
+			&kp F9        &kp F10        &kp F1           &kp F2        &kp F3           &kp F4  &kp F5       &kp F6           &kp F7          &kp F8
+			&kp LC(EQUAL) &mwh SCROLL_UP &mwh SCROLL_DOWN &kp LC(ENTER) &kp LC(PG_UP)    &kp F11 &kp LC(LEFT) &kp LC(DOWN)     &kp LC(UP)      &kp LC(RIGHT) 
+			&kp LC(DOT)   &kp LC(H)      &kp LC(B)        &sk LCTRL     &kp LC(PG_DN)    &kp F12 &kp LC(HOME) &kp LS(LC(BSPC)) &kp LS(LC(DEL)) &kp LC(END)
 				                                          &trans   &trans        &trans  &mt LALT DEL
 			>;
 		};
