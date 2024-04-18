@@ -1,5 +1,5 @@
 #    doas mkdir /usr/local/share/kbd/keymaps and paste gallium2.map (this file) there.
-#    specify /usr/local/share/kbd/keymaps/gallium2.map in the KEYMAP variable in /etc/vconsole.conf
+#    specify KEYMAP=/usr/local/share/kbd/keymaps/gallium2.map in /etc/vconsole.conf
 #    
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
