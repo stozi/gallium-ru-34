@@ -2,7 +2,7 @@
 A writing-focused 34-key ZMK/Linux layout for gallium-v2 and йцукен with mouse keys.
 
 In Linux, set compose to pause, switch lang to rctrl.
-Instructions on what to do with the 'gallium' and 'evdev' files are in those files. Copy the contents of my ZMK keymap file to yours in Github, that's a key step. ZMK mouse keys require additional setup. If ZMK mouse keys are still in beta and you haven't got it working yet, you can copy the contents of my west.yml file: https://github.com/stozi/zmk-config/blob/master/config/west.yml.
+Instructions on what to do with the 'gallium', 'evdev' and optionally for CLI gallium2.map files are in those files. Copy the contents of my ZMK keymap file to yours in Github, that's a key step. ZMK mouse keys require additional setup. If ZMK mouse keys are still in beta and you haven't got it working yet, you can copy the contents of my west.yml file: https://github.com/stozi/zmk-config/blob/master/config/west.yml.
 
 
 Prefixes 'ct' or 'c' mean ctrl+ below.
