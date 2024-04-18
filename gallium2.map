@@ -23,7 +23,6 @@ keymaps 0-2,4-5,8-9,12
 keycode 12 = endash	emdash
 
 # Second Row
-keycode 15 = Tab	nul	nul	nul	nul	nul	Meta_Tab
 keycode 16 = b		B	nul	Control_b
 keycode 17 = l		L	nul	Control_l
 keycode 18 = d		D	nul	Control_d
