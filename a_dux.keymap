@@ -93,7 +93,7 @@ macros {
 
 		nmnv {
 			bindings = <
-	                &kp C_BRI_UP   &kp LC(K)     &kp K_CUT      &kp K_COPY      &kp K_PASTE   &kp SLASH &ac_THE_LC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
+	                &kp C_BRI_UP   &kp LC(K)     &kp K_PASTE    &kp K_COPY      &kp K_CUT     &kp SLASH &ac_THE_LC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
 			&mmv MOVE_LEFT &mmv MOVE_UP  &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp PG_UP     &kp TAB   &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT      
 			&kp C_BRI_DN   &mkp RCLK     &mkp MCLK      &mkp LCLK       &kp PG_DN     &kp ESC   &kp HOME   &kp LC(BSPC) &kp LC(DEL)  &kp END   
 				                                             &tog 2 &lt 1 ENTER   &mt LSHIFT SPACE &mt LALT BSPC
