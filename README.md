@@ -12,7 +12,7 @@ Illustration:
 Base layer, mouse keys on the left.
 
 ```
-br+ sal cut cpy pst  .   the v-  v+  mut
+br+ sal pst cpy cut  .   the v-  v+  mut
 
 ml  mu  md  mr  pu   tab al  ad  au  ar
 
