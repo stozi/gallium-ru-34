@@ -1,11 +1,11 @@
- // sudo cp gallium-v2 /usr/share/X11/xkb/symbols/
+ // sudo cp gallium /usr/share/X11/xkb/symbols/
 
 default partial
 xkb_symbols "basic" {
 
     include "us(basic)"
 
-    name[Group1] = "Gallium-v2";
+    name[Group1] = "Gallium";
 
     key <CAPS> {[ less,      greater   ]};
     key <TLDE> {[ asciitilde, grave    ]};
