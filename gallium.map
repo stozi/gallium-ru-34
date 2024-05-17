@@ -1,6 +1,6 @@
-#    doas mkdir /usr/local/share/kbd/keymaps and paste gallium.map (this file) there.
-#    specify KEYMAP=/usr/local/share/kbd/keymaps/gallium.map in /etc/vconsole.conf
-#    
+#    doas mkdir /usr/local/share/kbd/keymaps and paste gallium2.map (this file) there.
+#    specify KEYMAP=/usr/local/share/kbd/keymaps/gallium2.map in /etc/vconsole.conf
+#
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -16,7 +16,7 @@
 
 strings as usual
 compose as usual for "iso-8859-1"
-include "linux-keys-bare"
+include "en.map"
 keymaps 0-2,4-5,8-9,12
 
 # First Row PLUS MY DASHES
@@ -32,7 +32,7 @@ keycode 21 = j		J	nul	Control_j
 keycode 22 = y		Y	nul	Control_y
 keycode 23 = o		O	nul	Control_o
 keycode 24 = u		U	nul	Control_u
-keycode 25 = comma		slash	nul	nul	nul	Meta_comma	Meta_slash
+keycode 25 = slash	question	nul	nul	nul		Meta_slash
 
 # Third Row
 keycode 30 = n		N	nul	Control_n
@@ -61,7 +61,7 @@ keycode 49 = k		K	nul	Control_k
 keycode 50 = f		F	nul	Control_f
 keycode 51 = apostrophe	quotedbl	nul	nul	nul	Meta_apostrophe
 keycode 52 = minus	underscore	nul	nul	nul	Meta_minus	Meta_underscore
-keycode 53 = period	question	nul	nul	nul		Meta_period
+keycode 53 = period	comma	nul	nul	nul		Meta_period	Meta_comma
 
 # Fifth Row, left of space bar, and space bar PLUS MY CAPS MOD
 keycode 58 = less            greater
