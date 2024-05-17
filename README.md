@@ -12,11 +12,11 @@ Illustration:
 Base layer, mouse keys on the left.
 
 ```
-pgu sal pst cpy cut   mut vo- tab esc vo+ 
+Cpu sal pst cpy cut   mut vo- tab esc vo+ 
 
 msl msu msd msr br+   Cbk arl ard aru arr
 
-pgd rmb mmb lmb br-   Cdl the end hom .
+Cpd rmb mmb lmb br-   Cdl the end hom .,
 
 layer2 layer1/enter  shift/space alt/bkspc   
 ```               
@@ -25,24 +25,24 @@ Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, Cer is ctrl-enter)
 
 ```
 
-Cpu F10 F1  F2  F3  F4  F5  F6  F7  F8
+pgu F10 F1  F2  F3  F4  F5  F6  F7  F8
 
 F9  wlu wld Cer C=  SCb Cal Cad Cau Car
 
-Cdn rdo udo skC C-  SCd F11 Ced Chm F12
+pdn rdo udo skC C-  SCd F11 Ced Chm F12
 
 null layer0/enter  shift/space alt/del   
 ```
 
 ```
-b   l   d   c   v     j   y   o   u   ,/
+b   l   d   c   v     j   y   o   u   /?
 й   ц   у   к   е     н   г   ш   щ   з
 
 n   r   t   s   g     p   h   a   e   i
 ф   ы   в   а   п     р   о   л   д   ж
 
 x   q   m   w   z     k   f   '"  -_  .?
-я   ч   с   м   и     т   ь   б   ю   .
+я   ч   с   м   и     т   ь   б   ю   .,
 
 layer0 layer3/enter  shift/space alt/bkspc
 ```
