@@ -12,11 +12,11 @@ Illustration:
 Base layer, mouse keys on the left.
 
 ```
-br+ sal pst cpy cut  .   the vo- vo+ mut
+pgu sal pst cpy cut   mut vo- tab esc vo+ 
 
-msl msu msd msr pgu  tab arl ard aru arr
+msl msu msd msr br+   Cbk arl ard aru arr
 
-br- rmb mmb lmb pgd  esc hom Cbk Cdl end
+pgd rmb mmb lmb br-   Cdl the end hom .
 
 layer2 layer1/enter  shift/space alt/bkspc   
 ```               
@@ -25,11 +25,11 @@ Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, Cer is ctrl-enter)
 
 ```
 
-F9  F10 F1  F2  F3   F4  F5  F6  F7  F8
+Cpu F10 F1  F2  F3   F4  F5  F6  F7  F8
 
-C=  wlu wld Cer Cpu  F11 Cal Cad Cau Car
+F9  wlu wld Cer C=  SCb Cal Cad Cau Car
 
-C-  rdo udo skC Cpd  F12 Chm SCb SCd Ced
+Cdn rdo udo skC C-  SCd F11 Ced Chm F12
 
 null layer0/enter  shift/space alt/del   
 ```
@@ -41,6 +41,7 @@ b   l   d   c   v     j   y   o   u   ,/
 n   r   t   s   g     p   h   a   e   i
 ф   ы   в   а   п     р   о   л   д   ж
 
+
 x   q   m   w   z     k   f   '"  -_  .?
 я   ч   с   м   и     т   ь   б   ю   .,
 
@@ -50,12 +51,12 @@ layer0 layer3/enter  shift/space alt/bkspc
 Fn layer for alpha layer. 'cmp' is compose, 'lng' switch lang. Accessed by holding down the left-left thumb key or tapping both left-hand thumb keys at once.
 
 ```
-<>  \|  =+  lng cmp  ~`  the :;  [{  ]}
-                     ё       э   х   ъ
+n/a ~`  :;  lng n/a  n/a com [{  ]}  n/a
+    ё   э                    х   ъ
 
 9(  0)  1!  2@  3#   4$  5%  6^  7&  8*
 
-n/a n/a n/a skC n/a  n/a com ()  –—  sen
+<>  \|  =+  skC cmp  n/a the ()  –—  sen       
 
 null layer2/enter  shift/space alt/del
 ```
