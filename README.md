@@ -25,7 +25,7 @@ Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, Cer is ctrl-enter)
 
 ```
 
-Cpu F10 F1  F2  F3   F4  F5  F6  F7  F8
+Cpu F10 F1  F2  F3  F4  F5  F6  F7  F8
 
 F9  wlu wld Cer C=  SCb Cal Cad Cau Car
 
