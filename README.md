@@ -12,7 +12,7 @@ Illustration:
 Base layer, mouse keys on the left.
 
 ```
-Cpu sal pst cpy cut   mut tab vo- vo+ esc
+Cpu sal pst cpy cut   esc tab vo- vo+ mut
 
 msl msu msd msr br+   Cbk arl ard aru arr
 
