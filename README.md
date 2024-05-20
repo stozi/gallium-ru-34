@@ -9,7 +9,7 @@ Prefix 'C' means ctrl+, 'S' means shift+.
 
 Illustration:
 
-Base layer, mouse keys on the left.
+Base layer, mouse keys on the left, ctrl+pgup/pgdn swapped with plain pgup/pgdn from the next layer for easy browser tab switching.
 
 ```
 Cpu sal pst cpy cut   esc tab vo- vo+ mut
@@ -19,10 +19,9 @@ msl msu msd msr br+   Cbk arl ard aru arr
 Cpd rmb mmb lmb br-   Cdl the end hom .,
 
 layer2 layer1/enter  shift/space alt/bkspc   
-```               
+```
 
-Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, Cer is ctrl-enter)
-
+Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, Cer is ctrl-enter). F# keys aren't a big part of my life, low priority for nice symmetrical placement.
 ```
 pgu F10 F1  F2  F3  F4  F5  F6  F7  F8
 
@@ -32,7 +31,7 @@ pdn rdo udo skC C-  SCd F11 Ced Chm F12
 
 null layer0/enter  shift/space alt/del   
 ```
-
+Here and in the next layer you'll see some simple but unusual customizations for puncts.
 ```
 b   l   d   c   v     j   y   o   u   /?
 й   ц   у   к   е     н   г   ш   щ   з
@@ -45,9 +44,7 @@ x   q   m   w   z     k   f   '"  -_  .,
 
 layer0 layer3/enter  shift/space alt/bkspc
 ```
-
-Fn layer for alpha layer. 'cmp' is compose, 'lng' switch lang. Accessed by holding down the left-left thumb key or tapping both left-hand thumb keys at once.
-
+Fn layer for alpha layer. 'cmp' is compose, 'lng' switch lang. Accessed by holding down the left-left thumb key or tapping both left-hand thumb keys at once. Might be nice to have the square brackets right under 9 and 0, but a bigger priority for me is Russian Х (and Э) on a good finger. Ъ and Ё are very rare. This layer could become more symmetrical with more punct customization in the Linux keymap, but I'm not convinced it's worth it.
 ```
 n/a ()  <>  lng n/a  n/a com [{  ]}  n/a
                              х   ъ
