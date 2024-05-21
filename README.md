@@ -12,11 +12,11 @@ Illustration:
 Base layer, mouse keys on the left, ctrl+pgup/pgdn swapped with plain pgup/pgdn from the next layer for easy browser tab switching.
 
 ```
-Cpu sal pst cpy cut   esc tab vo- vo+ mut
+pgu sal pst cpy cut   esc tab vo- vo+ mut
 
-msl msu msd msr br+   Cbk arl ard aru arr
+msl msu msd msr br+   Cbk arl ard aru arr  (msl+msr=scroll up, msu+msd=scroll down)
 
-Cpd rmb mmb lmb br-   Cdl the end hom .,
+pgd rmb mmb lmb br-   Cdl the end hom .,
 
 layer2 layer1/enter  shift/space alt/bkspc   
 ```
@@ -25,7 +25,7 @@ Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, Cer is ctrl-enter). F# 
 ```
 pgu F10 F1  F2  F3  F4  F5  F6  F7  F8
 
-F9  wlu wld Cer C=  SCb Cal Cad Cau Car
+F9  Cpu Cpd Cer C=  SCb Cal Cad Cau Car
 
 pdn rdo udo skC C-  SCd F11 Ced Chm F12
 
