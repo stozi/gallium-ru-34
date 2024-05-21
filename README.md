@@ -23,11 +23,11 @@ layer2 layer1/enter  shift/space alt/bkspc
 
 Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, Cer is ctrl-enter). F# keys aren't a big part of my life, low priority for nice symmetrical placement.
 ```
-pgu F10 F1  F2  F3  F4  F5  F6  F7  F8
+F9 F10 F1  F2  F3  F4  F5  F6  F7  F8
 
-F9  Cpu Cpd Cer C=  SCb Cal Cad Cau Car
+and Cpu Cpd Cer C=  SCb Cal Cad Cau Car
 
-pdn rdo udo skC C-  SCd F11 Ced Chm F12
+n/a rdo udo skC C-  SCd F11 Ced Chm F12
 
 null layer0/enter  shift/space alt/del   
 ```
