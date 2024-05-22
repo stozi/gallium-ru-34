@@ -27,7 +27,7 @@ F9 F10 F1  F2  F3  F4  F5  F6  F7  F8
 
 and Cpu Cpd Cer C=  SCb Cal Cad Cau Car
 
-n/a rdo udo skC C-  SCd F11 Ced Chm F12
+of  rdo udo skC C-  SCd F11 Ced Chm F12
 
 null layer0/enter  shift/space alt/del   
 ```
