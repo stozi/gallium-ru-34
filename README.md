@@ -33,7 +33,7 @@ null layer0/enter  shift/space alt/del
 ```
 Here and in the next layer you'll see some simple but unusual customizations for puncts.
 ```
-b   l   d   c   v     j   y   o   u   /?
+b   l   d   c   v     j   y   o   u   ?/
 й   ц   у   к   е     н   г   ш   щ   з
 
 n   r   t   s   g     p   h   a   e   i
