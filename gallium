@@ -20,7 +20,7 @@ xkb_symbols "basic" {
     key <AD07> {[ y,         Y         ]};
     key <AD08> {[ o,         O         ]};
     key <AD09> {[ u,         U         ]};
-    key <AD10> {[ slash,     question  ]};
+    key <AD10> {[ question,  slash     ]};
 
     key <AC01> {[ n,         N         ]};
     key <AC02> {[ r,         R         ]};
