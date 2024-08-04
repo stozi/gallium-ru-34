@@ -9,7 +9,7 @@ Prefix 'C' means ctrl+, 'S' means shift+.
 
 Illustration:
 
-Base layer, mouse keys on the left, ctrl+pgup/pgdn swapped with plain pgup/pgdn from the next layer for easy browser tab switching.
+Base layer, mouse keys on the left.
 
 ```
 pgu sal pst cpy cut   esc tab vo- vo+ mut
