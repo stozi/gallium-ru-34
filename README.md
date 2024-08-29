@@ -30,7 +30,9 @@ and Cpu Cpd Cer C=  SCb Cal Cad Cau Car
 
 of  rdo udo skC C-  SCd F11 Ced Chm F12
 
-null layer0/enter  shift/space alt/del   
+null layer0/enter  shift/space alt/del
+
+(add a repeat key?)  
 ```
 Here and in the next layer you'll see some simple but unusual customizations for puncts.
 ```
