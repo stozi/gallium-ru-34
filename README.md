@@ -26,13 +26,11 @@ Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, Cer is ctrl-enter).
 ```
 F9 F10 F1  F2  F3  F4  F5  F6  F7  F8
 
-and Cpu Cpd Cer C=  SCb Cal Cad Cau Car
+rep Cpu Cpd Cer C=  SCb Cal Cad Cau Car
 
-of  rdo udo skC C-  SCd F11 Ced Chm F12
+and rdo udo skC C-  SCd F11 Ced Chm F12
 
 null layer0/enter  shift/space alt/del
-
-(add a repeat key?)  
 ```
 Here and in the next layer you'll see some simple but unusual customizations for puncts.
 ```
