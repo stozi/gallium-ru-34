@@ -24,7 +24,7 @@ layer2 layer1/enter  shift/space alt/bkspc
 Hybrid ctrl/fn layer for base layer (skC is sticky ctrl, Cer is ctrl-enter).
 
 ```
-F9 F10 F1  F2  F3  F4  F5  F6  F7  F8
+F9  F10 F1  F2  F3  F4  F5  F6  F7  F8
 
 rep Cpu Cpd Cer C=  SCb Cal Cad Cau Car
 
