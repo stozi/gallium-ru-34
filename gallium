@@ -14,20 +14,20 @@ xkb_symbols "basic" {
     key <AD01> {[ b,         B         ]};
     key <AD02> {[ l,         L         ]};
     key <AD03> {[ d,         D         ]};
-    key <AD04> {[ c,         C         ]};
-    key <AD05> {[ v,         V         ]};
+    key <AD04> {[ w,         W         ]};
+    key <AD05> {[ z,         Z         ]};
     key <AD06> {[ j,         J         ]};
-    key <AD07> {[ y,         Y         ]};
+    key <AD07> {[ f,         F         ]};
     key <AD08> {[ o,         O         ]};
     key <AD09> {[ u,         U         ]};
-    key <AD10> {[ question,  slash     ]};
+    key <AD10> {[ minus,    underscore ]};
 
     key <AC01> {[ n,         N         ]};
     key <AC02> {[ r,         R         ]};
     key <AC03> {[ t,         T         ]};
     key <AC04> {[ s,         S         ]};
     key <AC05> {[ g,         G         ]};
-    key <AC06> {[ p,         P         ]};
+    key <AC06> {[ y,         Y         ]};
     key <AC07> {[ h,         H         ]};
     key <AC08> {[ a,         A         ]};
     key <AC09> {[ e,         E         ]};
@@ -38,12 +38,12 @@ xkb_symbols "basic" {
     key <AB01> {[ x,         X         ]};
     key <AB02> {[ q,         Q         ]};
     key <AB03> {[ m,         M         ]};
-    key <AB04> {[ w,         W         ]};
-    key <AB05> {[ z,         Z         ]};
+    key <AB04> {[ c,         C         ]};
+    key <AB05> {[ v,         V         ]};
     key <AB06> {[ k,         K         ]};
-    key <AB07> {[ f,         F         ]};
-    key <AB08> {[ apostrophe, quotedbl ]};
-    key <AB09> {[ minus,    underscore ]};
-    key <AB10> {[ period,    comma     ]};
+    key <AB07> {[ p,         P         ]};
+    key <AB08> {[ comma,     slash     ]};
+    key <AB09> {[ period,    question  ]};
+    key <AB10> {[ apostrophe, quotedbl ]};
 
 };
